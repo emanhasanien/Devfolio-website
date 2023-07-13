@@ -1,0 +1,524 @@
+
+/*========== Global========== */
+
+*{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color:#f5f5f7;
+}
+.captionafter{
+    width: 2.5rem;
+    height: 5px;
+    background-color: #0078ff;
+    margin: 0 auto;
+}
+/*====== start navbar====== */
+.navbar{
+    background-color:rgba(0, 0, 0, 0.753);
+    color: #fff;
+    
+}
+.navbar-brand {
+    font-size: 1.875rem;
+}
+.navbar .nav-link {
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+.navbar .nav-link.active{
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    
+}
+.navbar .nav-link:hover{
+    border-bottom: 2px solid #fff;
+}
+ .navbar .navbar-toggler {
+    border: none;
+}
+.navbar .navbar-toggler-icon{
+    color: #fff !important;
+}
+/*====== End navbar====== */
+
+/*====== start home====== */
+#home{
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.753),rgba(0, 0, 0, 0.753)) , url("../images/hero-bg.jpg") ;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#home .caption .title{
+    font-size: 4.5rem ;
+    font-weight: 600;
+}
+
+#home span::after{
+    font-size: 40px;
+    font-weight: 500;
+    content: "";
+    animation-name: typing;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes typing{
+ 
+    0%{
+        content: "D|";
+    }
+    2%{
+        content: "De|";
+    }
+    4%{
+        content: "Dev|";
+    }
+    6%{
+        content: "Deve|";
+    }
+    8%{
+        content: "Devel|";
+    }
+    10%{
+        content: "Develo|";
+    }
+    12%{
+        content: "Develop|";
+    }
+    14%{
+        content: "Develope|";
+    }
+    16%{
+        content: "Developer|";
+    }
+
+    18%{
+        content: "Develope|";
+    }
+    19%{
+        content: "Develop|";
+    }
+    20%{
+        content: "Develo|";
+    }
+    21%{
+        content: "Devel|";
+    }
+    22%{
+        content: "Deve|";
+    }
+    23%{
+        content: "Dev|";
+    }
+    24%{
+        content: "De|";
+    }
+    25%{
+        content: "Des|";
+    }
+    26%{
+        content: "Desi|";
+    }
+    27%{
+        content: "Desig|";
+    }
+    28%{
+        content: "Design|";
+    }
+    29%{
+        content: "Designe|";
+    }
+    30%{
+        content: "Designer|";
+    }
+    31%{
+        content: "Designe|";
+    }
+    32%{
+        content: "Design|";
+    }
+    33%{
+        content: "Desig|";
+    }
+    34%{
+        content: "Desi|";
+    }
+    35%{
+        content: "Des|";
+    }
+    36%{
+        content: "De|";
+    }
+    37%{
+        content: "D|";
+    }
+    38%{
+        content: "|";
+    }
+    39%{
+        content: "F|";
+    }
+    40%{
+        content: "Fr|";
+    }
+    41%{
+        content: "Fre|";
+    }
+    42%{
+        content: "Free|";
+    }
+    43%{
+        content: "Freel|";
+    }
+    44%{
+        content: "Freela|";
+    }
+    45%{
+        content: "Freelan|";
+    }
+    46%{
+        content: "Freelanc|";
+    }
+    47%{
+        content: "Freelance|";
+    }
+    48%{
+        content: "Freelancer|";
+    }
+    49%{
+        content: "Freelance|";
+    }
+    50%{
+        content: "Freelanc|";
+    }
+    51%{
+        content: "Freelan|";
+    }
+    52%{
+        content: "Freela|";
+    }
+    53%{
+        content: "Freel|";
+    }
+    54%{
+        content: "Free|";
+    }
+    55%{
+        content: "Fre|";
+    }
+    56%{
+        content: "Fr|";
+    }
+    57%{
+        content: "F|";
+    }
+    58%{
+        content: "|";
+    }
+    59%{
+        content: "P|";
+    }
+    60%{
+        content: "Ph|";
+    }
+    61%{
+        content: "Pho|";
+    }
+    62%{
+        content: "Phot|";
+    }
+    63%{
+        content: "Photo|";
+    }
+    64%{
+        content: "Photog|";
+    }
+    65%{
+        content: "Photogr|";
+    }
+    66%{
+        content: "Photogra|";
+    }
+    67%{
+        content: "Photograp|";
+    }
+    68%{
+        content: "Photograp|";
+    }
+    69%{
+        content: "Photograph|";
+    }
+    70%{
+        content: "Photographe|";
+    }
+    71%{
+        content: "Photographer|";
+    }
+    72%{
+        content: "Photographe|";
+    }
+    73%{
+        content: "Photograph|";
+    }
+    75%{
+        content: "Photograp|";
+    }
+    77%{
+        content: "Photogra|";
+    }
+    79%{
+        content: "Photogr|";
+    }
+    81%{
+        content: "Photog|";
+    }
+    83%{
+        content: "Photo|";
+    }
+    85%{
+        content: "Phot|";
+    }
+    88%{
+        content: "Pho|";
+    }
+    92%{
+        content: "Ph|";
+    }
+    95%{
+        content: "P|";
+    }
+    100%{
+        content: "|";
+    }
+    
+}
+
+/*====== End home====== */
+
+
+/*====== start About====== */
+
+#about .container .title{
+ font-size: 1.25rem;
+ font-weight: 500;
+}
+
+#about .container p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+#about .container .progress {
+margin-block: 1rem;
+height: .75rem;
+border-radius: 0;
+}
+#about .container h5::before{
+content: "";
+position: absolute;
+background-color: #09c;
+width: 6.25rem;
+height: 3px;
+bottom: 35px;
+}
+
+/*---====== End About ====== */
+
+/*---====== start services ====== */
+
+#services  .container .service-icon i{
+    padding: 2rem;
+    font-size: 2.5rem;
+    border: 10px solid #0078ff;
+    border-radius: 50%;
+    transition: 1s;
+}
+#services  .container .service-icon i:hover{
+    background-color: #0078ff;
+    border-color: #81b8f7ab;
+    color: #fff;
+}
+#services  .container .about-service{
+    padding-block: 1.25rem;
+}
+/*---====== End services ====== */
+
+/*---====== start counter-section ====== */
+.counter-section{
+    background:linear-gradient(to bottom ,#0077ff94,#0077ff94), url('https://alfaroukroute.github.io/Devfolio/assets/img/counters-bg.jpg');
+    background-attachment: fixed;
+    padding: 5rem;
+}
+
+.counter-section .container i{
+    padding: 1rem;
+    font-size: 2.5rem;
+    border: 10px solid #cde1f8;
+    border-radius: 50%;
+    color: #fff;
+}
+.counter-section .container .counter-info div,
+.counter-section .container .counter-info p{
+    margin-block: 1.25rem;
+}
+
+.counter-section .container  span{
+    font-size: 2.5rem;
+}
+
+/*---====== End counter-section ====== */
+
+/*---====== start portfolio ====== */
+#portfolio .text{
+    color: #0078ff;
+}
+#portfolio span{
+    font-size: .75rem;
+}
+#portfolio .img-div{
+    overflow: hidden;
+}
+#portfolio .img-div img{
+    transition: .5s;
+}
+
+#portfolio img:hover{
+    transform: scale(1.3) rotate(3deg);
+}
+
+/*---====== End portfolio ====== */
+
+
+/*---====== start slider ====== */
+
+
+
+.slider-section .slide-1{
+    background:linear-gradient(to bottom ,#0077ff94,#0077ff94),  url('../images/overlay-bg.jpg');
+    background-size: 100% 100%;
+    min-height: 100vh;
+    text-align: center;
+
+}
+.slider-section .slider-info{
+   margin: 80px auto;
+}
+.slider-section .slider-img{
+    width: 8rem;
+    height: 8rem;
+    margin: 2rem auto;
+}
+
+.slider-section h4{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+.slider-section p{
+    padding:0 1rem;
+    font-size: 1.125rem;
+}
+.slider-section .carousel-indicators [data-bs-target] {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+ .slider-section .carousel-indicators{
+    bottom: 13.4375rem;
+}
+ 
+/*---====== End slider ====== */
+
+
+/*---====== start blog ====== */
+#blog{
+    margin-block: 5rem;
+}
+#blog .card-footer .auther-img{
+    width:35px ;
+    height:35px;
+}
+#blog .card-body{
+    position: relative;
+}
+#blog .card-body a{
+    color: black;
+}
+#blog .card-body .card-category-box{
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    top: -16px;
+    left: 15px;
+    right: 15px;
+    line-height: 1rem;
+    overflow: hidden;
+
+}
+#blog .card-body .card-category-box .card-category{
+    background-color: #0078ff;
+    display: inline-block;
+    padding: 3px 10px 3px;
+    border-radius: 4px;
+   
+}
+#blog .card-body .card-category-box h6{
+    font-size: .75rem;
+}
+/*---====== End blog ====== */
+
+/*---====== start cotact ====== */
+#contact{
+    background:linear-gradient(to bottom ,#0077ff94,#0077ff94),  url('../images/overlay-bg.jpg');
+    background-size: 100% 100%;
+    min-height: 100vh;
+    padding-block: 5rem;
+}
+#contact .form-control
+{
+    display: block;
+    width: 100%;
+    padding:5px 10px;
+    font-weight: 300;
+    font-size: 1rem;
+    border: 1px solid #adb5bd;
+    color: #212529;
+    
+}
+#contact .contact-form button{
+    padding: 10px 15px;
+    font-size: 1.125rem;
+    margin-top: .9375rem;
+    text-align: center;
+    position: relative;
+    left: 40%;
+}
+#contact .contact-media ul li{
+    padding-block: .5rem;
+    color: #212529;
+}
+#contact .contact-media .icon{
+    color: #09c;
+}
+#contact .contact-media .social-icon {
+    margin-right: 1rem;
+    font-size: 1.25rem;
+}
+#contact .contact-media .social-icon i{
+    border: 3px solid #0078ff;
+    border-radius: 50%;
+    padding: .75rem;
+}
+#contact .footer{
+    display: flex;
+    text-align: center; 
+    margin-top: 50px;
+    align-items:center;
+    
+}
+/*---====== End cotact ====== */
+
+
+
